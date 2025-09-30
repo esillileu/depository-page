@@ -1,0 +1,257 @@
+{
+  "main": {
+    "id": "3f419ca414b29b8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a2aa74cc51c18ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1745ad52ad04be23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project/호주 여행/준비물/준비물.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "준비물"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6d6b8c00b831688b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a730ef09a6f0f45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb9a5591674bb0c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "30841da96f96c85d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Earth",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "53eec14a2135bdf8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          },
+          {
+            "id": "ce65bfe9298ea6fb",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "19fb60769d17e419",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e69464fcb49302c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75b09b47450609e9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "7eb20cf7563d2c32",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Project/호주 여행/준비물/준비물.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "준비물 의 개요"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "fd010917a8c54a80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d52dde0f9508b4cb",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c012390099eaf607",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50f747c00e1cc604",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "60c7a007688db70e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "39294ec260580e38",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "template/Name.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Name 의 나가는 링크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-kanban:새 보드 만들기": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "1745ad52ad04be23",
+  "lastOpenFiles": [
+    "Tags/#earth+hydrosphere+gw+mass_flow",
+    "hydrosphere/gw",
+    "hydrosphere",
+    "Tags/#earth+hydrosphere+gw+flow",
+    "sorption_model",
+    "rock",
+    "physics/isotope",
+    "physics",
+    "earth/contaminaton",
+    "chemistry",
+    "solar_system",
+    "Project/호주 여행/준비물/세면도구 및 화장품.md",
+    "Project/호주 여행/준비물/준비물.md",
+    "Project/호주 여행/호주 여행.md",
+    "Project/호주 여행/준비 내용/예약 정보.md",
+    "Project/Project.md",
+    "------(post-organize)------.md",
+    "Resource/daily/2025-02-20.md",
+    "Area/Area.md",
+    "Distilting/Distilting.md",
+    "Vault.md",
+    "------(setting)------.md",
+    "Tags/Tags.md",
+    "template/template.md",
+    "Resource/daily/2025-02-19.md",
+    "Resource/Resource.md",
+    "Area/Second-Brain/관련 자료.md",
+    "Area/Second-Brain/Second-Brain.md",
+    "Area/운동/운동.md",
+    "Resource/study/Math/Linear Algebra/Vector/Vector.md",
+    "Resource/study/Math/Linear Algebra/Linearly Independent.md",
+    "Resource/study/Math/Linear Algebra/Orthogonal Complement.md",
+    "Resource/study/Math/Linear Algebra/Vector/Hyperplane.md",
+    "Resource/study/Math/Linear Algebra/Linearly Dependent.md",
+    "Resource/study/Math/Linear Algebra/Subspace.md",
+    "Resource/study/Math/Linear Algebra/Solution Space.md",
+    "Archive/KUEES/Pasted image 20241210123500.png",
+    "무제 파일.canvas"
+  ]
+}

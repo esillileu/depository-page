@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "D2Coding",
+  "textFontFamily": "D2Coding",
+  "monospaceFontFamily": "D2Coding",
+  "accentColor": "#39bbc5",
+  "showViewHeader": true,
+  "nativeMenus": false
+}

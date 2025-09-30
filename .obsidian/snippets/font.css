@@ -1,0 +1,14 @@
+/* 인터페이스의 모든 텍스트에 D2Coding 폰트 적용 */
+body, .workspace, .markdown-preview-view, .cm-s-obsidian, .view-header,
+.nav-file-title-content, .nav-folder-title-content, .nav-file-title, .side-dock,
+.workspace-split, .view-header-title, .view-content, .suggestion-item, .status-bar,
+.cm-header, .cm-line, .cm-s-obsidian .CodeMirror, .cm-s-obsidian .CodeMirror-lines,
+.markdown-source-view, .cm-editor, .mod-root, .mod-root .workspace, .workspace-leaf,
+.view-header-title-container, .workspace-tab-header, .workspace-tab-header .title, 
+.titlebar, .view-header-title, .side-dock-container, .mod-sidebar, .mod-left-split,
+.nav-header, .nav-file, .nav-folder, .nav-header-title, .nav-folder-title, 
+.nav-file-title, .nav-folder-title-content, .nav-file-title-content, .nav-folder-title-inner, 
+.nav-file-title-inner, .search-result-file-title, .search-result-file-matches, 
+.search-result-file-match {
+    font-family: 'D2Coding', monospace !important;
+}

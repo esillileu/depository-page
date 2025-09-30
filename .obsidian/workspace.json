@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "c8bd6d8f54da2de4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff1414988ba24b18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40b94af2e1212d0c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "935b0e5c76a43a8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b72a49ff98c3e509",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "224b678f88424ee0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9b0792ef280249b1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "latent",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "40e37cefd1b9a734",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "e41b620b56b01d8b",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 275.5
+  },
+  "right": {
+    "id": "3a5e07b71feff46c",
+    "type": "split",
+    "children": [
+      {
+        "id": "fad8e946a061697c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e783603ef3e71004",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ac85639c468acb7c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Resource/study/paper review/Broadband Ground Motion Synthesis by Diffusion Model with MinimalCondition.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Broadband Ground Motion Synthesis by Diffusion Model with MinimalCondition 의 나가는 링크"
+            }
+          },
+          {
+            "id": "a3d55b095ab96f6d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "aaf38e7e0fd16b7b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Project/2025 중고등부 연합 수련회/채널 계획.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "채널 계획 의 개요"
+            }
+          },
+          {
+            "id": "041eb7e4d34efda8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "396872ef11492776",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 387.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "224b678f88424ee0",
+  "lastOpenFiles": [
+    "dictionary",
+    "direction",
+    "diary",
+    "Untitled.md",
+    "Welcome.md",
+    "Project/2025 중고등부 연합 수련회/2025 중고등부 연합 수련회.md",
+    "Project/운동/운동.md",
+    "Project/운동/맨몸 근성장 8주/맨몸 근성장 8주.md",
+    "Project/운동/장기 운동 방향성.md",
+    "Project/Project.md",
+    "Project/타자 연습/타자 연습.md",
+    "Resource/study/AI/Self Attention.md",
+    "Tags/#ai+model",
+    "Resource/study/AI/Scaled Dot-Product Attention.md",
+    "Resource/study/AI/Transformer.md",
+    "Resource/study/AI/AI.md",
+    "Resource/study/AI/ML/CV/Segmentation.md",
+    "Resource/study/AI/ML/CV/Computer Vision.md",
+    "Resource/study/AI/ML/CV/Bilinear Interpolation.md",
+    "Resource/study/study.md",
+    "Resource/Resource.md",
+    "Resource/study/Math/Statistical Learning/Statistical Learning.md",
+    "Project/오산/OT 및 특강.md",
+    "Project/오산/오산.md",
+    "Project/오산",
+    "Project/2025 중고등부 연합 수련회/피드백.md",
+    "Resource/study/paper review/Broadband Ground Motion Synthesis by Diffusion Model with MinimalCondition.md",
+    "Resource/study/paper review/paper review.md",
+    "Resource/paper/2501.00663v1.pdf",
+    "Resource/paper/2412.17333v1.pdf",
+    "Resource/study/Math/Linear Algebra/Linear Algebra.md",
+    "Project/2025 중고등부 연합 수련회/채널 계획.md",
+    "Project/2025 중고등부 연합 수련회/채널 계획-esillileu-2.md~RF85d421.TMP",
+    "Project/2025 중고등부 연합 수련회",
+    "Resource/study/Math/Statistics/Noise",
+    "Resource/study/AI/Generative Model/Diffusion Model"
+  ]
+}
