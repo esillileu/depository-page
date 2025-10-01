@@ -1,5 +1,5 @@
 ---
 tags:
-  - daily
+  - diary
 ---
 # {{date}}
