@@ -1,7 +1,7 @@
 ---
 tags:
   - system
-  - git
+  - service/git
   - dictionary
 aliases:
 ---

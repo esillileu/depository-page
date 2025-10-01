@@ -1,7 +1,7 @@
 ---
 tags:
   - dictionary
-  - github-pages
+  - service/github-pages
   - service
 ---
 # Github Pages

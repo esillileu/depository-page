@@ -1,7 +1,7 @@
 ---
 tags:
   - dictionary
-  - git
+  - service/git
 aliases:
 ---
 # Remote Repository

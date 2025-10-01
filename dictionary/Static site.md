@@ -1,6 +1,6 @@
 ---
 tags:
-  - service
+  - dictionary
 aliases:
   - 정적 사이트
 ---

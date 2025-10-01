@@ -1,6 +1,6 @@
 ---
 tags:
-  - git
+  - service/git
   - dictionary
 aliases:
   - 브랜치

@@ -4,39 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "415aa52e48e68593",
+        "id": "a2a977af73ec74fc",
         "type": "tabs",
         "children": [
           {
-            "id": "fea010682f2be7bc",
+            "id": "8e35134d68b05f65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dispatch/githubpages-quartz/1. Github Page 설정 및 Quartz 동작 확인.md",
+                "file": "diary/2025-10-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Github Page 설정 및 Quartz 동작 확인"
+              "title": "2025-10-01"
             }
           },
           {
-            "id": "498483bf388cd93f",
+            "id": "f614fd506c3bc3b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dictionary/service/github/Submodule.md",
+                "file": "dictionary/language/python/Generator Object.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Submodule"
+              "title": "Generator Object"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#daily",
+                "query": "tag:#object",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +89,7 @@
             }
           },
           {
-            "id": "57910d26c445126e",
+            "id": "d4988e40f258f4bf",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -201,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,43 +217,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "498483bf388cd93f",
+  "active": "8e35134d68b05f65",
   "lastOpenFiles": [
-    "dispatch/githubpages-quartz/2. Git Submodule 설정 및 내용 연동.md",
+    "dictionary/language/python/Generator Object.md",
+    "diary/2025-10-01.md",
+    "dictionary/language/python/statement/Raise Statement.md",
+    "dictionary/language/python/Generator Function.md",
+    "dictionary/language/python/statement/Yield Statement.md",
+    "dictionary/language/python/Iterator (Python).md",
+    "dictionary/language/python/statement/With Statement.md",
+    "dictionary/language/python/statement/Return Statement.md",
+    "dictionary/language/Indentation.md",
+    "dictionary/language/language theory/Function (Programming Language).md",
+    "dictionary/language/language theory/Generator.md",
+    "dictionary/language/language theory/sementics/Iterable.md",
+    "dictionary/language/language theory/sementics/Reference.md",
+    "dictionary/language/language theory/sementics/Scope.md",
+    "dictionary/language/language theory/sementics/Sementics.md",
+    "dictionary/language/language theory/syntax/Expression.md",
+    "dictionary/language/language theory/syntax/Statement.md",
+    "dictionary/language/language theory/syntax/Syntactic Construct.md",
+    "dictionary/language/language theory/sementics/entity/Iterator.md",
+    "dictionary/service/Github/Github Pages.md",
     "direction/Github Pages 설정 방법.md",
-    "dictionary/service/github/Submodule.md",
-    "dispatch/githubpages-quartz/1. Github Page 설정 및 Quartz 동작 확인.md",
-    "dictionary/service/github/Repsitory.md",
-    "templates/template_dicitionary.md",
-    "dispatch/githubpages-quartz/0. 블로그 제작 고민.md",
-    "templates/template_diary.md",
-    "index.md",
-    "diary/2025-09-30.md",
-    "diary/2025-09-29.md",
-    "templates/template_dispatch.md",
-    "dictionary/Static site.md",
-    "dictionary/service/github/Github Pages.md",
-    "dictionary/service/github/Github.md",
-    "dictionary/service/Gemini CLI.md",
-    "dictionary/service/github/Branch.md",
-    "dictionary/service/github/Git.md",
-    "dictionary/Command Line Interface.md",
-    "dispatch/githubpages-depository/1. Github Page 설정 및 Quartz 동작 확인 .md",
-    "templates/template.md",
-    "dispatch/NVIDIA AI ACADEMY/NVIDIA AI ACADEMY.md",
-    "dictionary/User Interface.md",
-    "dictionary/service/Human-Computer Interface.md",
-    "dictionary/service/Untitled",
-    "dictionary/service",
-    "dictionary/service/github/Local Repository.md",
-    "dictionary/service/github/Remote Repository.md",
-    "dictionary/service/github",
-    "dispatch/NVIDIA AI ACADEMY",
-    "dispatch/githubpages-quartz",
-    "dispatch",
-    "templates",
-    "dictionary",
-    "direction",
-    "diary"
+    "dictionary/math/linear algebra/matrix/Matrix Operation/Determinant.md",
+    "Tags/#git",
+    "dictionary/math/algebra/Algebra.md",
+    "dictionary/math/statistical learning/무제.md",
+    "dictionary/math/statistics/Latent Space.md",
+    "dictionary/math/statistics/distribution/Multivariate Normal Distribution.md",
+    "dictionary/math/analysis",
+    "dictionary/math/Untitled",
+    "dictionary/math/statistics/probability",
+    "dictionary/math/statistics/noise",
+    "dictionary/math/statistics/distribution",
+    "dictionary/math/statistical learning/supervised learning",
+    "dictionary/math/statistical learning/supervised Learning",
+    "dictionary/math/linear algebra/vector/Vector Operation",
+    "dictionary/math/linear algebra/vector"
   ]
 }
