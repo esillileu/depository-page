@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dispatch/githubpages-quartz/3. 옵시디언 동기화 및 서브모듈 업데이트.md",
+                "file": "diary/2025-10-02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 옵시디언 동기화 및 서브모듈 업데이트"
+              "title": "2025-10-02"
+            }
+          },
+          {
+            "id": "81f46e8a5bc2cbc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "diary/2025-10-02.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-10-02"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +90,7 @@
             }
           },
           {
-            "id": "158e763d009e2ac3",
+            "id": "3405cea4a0f80477",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -84,7 +99,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -204,25 +220,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8172ca735c72f854",
+  "active": "81f46e8a5bc2cbc3",
   "lastOpenFiles": [
-    "dispatch/githubpages-quartz/2. Git Submodule 설정 및 내용 연동.md",
-    "dispatch/githubpages-quartz/3. 옵시디언 동기화 및 서브모듈 업데이트.md",
-    "dispatch/githubpages-quartz/0. Github Pages에 Quartz를 이용한 Obsidian 베포.md",
-    "dispatch/githubpages-quartz/1. Github Page 설정 및 Quartz 동작 확인.md",
+    "diary/2025-10-01.md",
     "diary/2025-10-02.md",
-    "direction/Github Pages 설정 방법.md",
+    "diary/2025-09-29.md",
     "direction/Github Repository 생성 방법.md",
+    "direction/Git Submodule 사용 방법.md",
+    "index.md",
+    "dispatch/githubpages-quartz/3. 옵시디언 동기화 및 서브모듈 업데이트.md",
+    "dispatch/githubpages-quartz/2. Git Submodule 설정 및 내용 연동.md",
+    "dispatch/githubpages-quartz/1. Github Page 설정 및 Quartz 동작 확인.md",
+    "dispatch/githubpages-quartz/0. Github Pages에 Quartz를 이용한 Obsidian 베포.md",
+    "direction/Github Pages 설정 방법.md",
     "dictionary/dictionary.md",
     "dictionary/service/Gemini CLI.md",
-    "direction/Git Submodule 사용 방법.md",
     "dictionary/service/git/Branch.md",
     "dictionary/service/git/Git.md",
     "dictionary/service/git/Local Repository.md",
     "dictionary/service/git/Remote Repository.md",
     "dictionary/service/git/Repsitory.md",
     "dictionary/service/git/Submodule.md",
-    "diary/2025-10-01.md",
     "direction/로컬 레포.md",
     "dictionary/service/github/Github Pages.md",
     "dictionary/service/github/Github.md",
@@ -232,8 +250,6 @@
     "dictionary/computer science/computer science.md",
     "dictionary/computer science",
     "dictionary/computer science/Static site.md",
-    "dictionary/computer science/User Interface.md",
-    "dictionary/computer science/language/python/Generator Object.md",
     "Tags/#git",
     "dictionary/math/analysis",
     "dictionary/math/Untitled",
