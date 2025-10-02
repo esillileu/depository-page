@@ -7,7 +7,7 @@ tags:
 aliases:
 ---
 # Github
-> [[Git]] 기반의 코드 저장 및 협업 플랫폼
+> [[Git]] 기반의 [[Remote Repository|원격 저장소]] 호스팅 및 협업 플랫폼
 ## 특징
 - Git을 이용한 코드 변경 이력 추적 및 버전 관리
 - [[Branch]], Pull Request, Issue Tracker 등의 협업 기능 

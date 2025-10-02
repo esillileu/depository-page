@@ -89,7 +89,14 @@
     "//Project/Project/오산",
     "//Resource/Resource/study/Resource/study/AI",
     "//Project",
-    "//Project/Project/운동/Project/운동/맨몸 근성장 8주"
+    "//Project/Project/운동/Project/운동/맨몸 근성장 8주",
+    "direction",
+    "diary",
+    "dispatch",
+    "dictionary",
+    "dictionary/dictionary/service",
+    "dictionary/dictionary/service/dictionary/service/github",
+    "dictionary/dictionary/service/dictionary/service/git"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

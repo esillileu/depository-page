@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a2a977af73ec74fc",
+        "id": "af30051884dfc71e",
         "type": "tabs",
         "children": [
           {
-            "id": "8e35134d68b05f65",
+            "id": "8172ca735c72f854",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2025-10-01.md",
+                "file": "dispatch/githubpages-quartz/3. 옵시디언 동기화 및 서브모듈 업데이트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-01"
-            }
-          },
-          {
-            "id": "f614fd506c3bc3b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dictionary/language/python/Generator Object.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Generator Object"
+              "title": "3. 옵시디언 동기화 및 서브모듈 업데이트"
             }
           }
         ]
@@ -89,7 +75,7 @@
             }
           },
           {
-            "id": "66a8ec21a9613535",
+            "id": "158e763d009e2ac3",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -98,8 +84,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 387.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,43 +204,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e35134d68b05f65",
+  "active": "8172ca735c72f854",
   "lastOpenFiles": [
-    "dictionary/language/python/Generator Object.md",
-    "diary/2025-10-01.md",
-    "dictionary/language/python/statement/Raise Statement.md",
-    "dictionary/language/python/Generator Function.md",
-    "dictionary/language/python/statement/Yield Statement.md",
-    "dictionary/language/python/Iterator (Python).md",
-    "dictionary/language/python/statement/With Statement.md",
-    "dictionary/language/python/statement/Return Statement.md",
-    "dictionary/language/Indentation.md",
-    "dictionary/language/language theory/Function (Programming Language).md",
-    "dictionary/language/language theory/Generator.md",
-    "dictionary/language/language theory/sementics/Iterable.md",
-    "dictionary/language/language theory/sementics/Reference.md",
-    "dictionary/language/language theory/sementics/Scope.md",
-    "dictionary/language/language theory/sementics/Sementics.md",
-    "dictionary/language/language theory/syntax/Expression.md",
-    "dictionary/language/language theory/syntax/Statement.md",
-    "dictionary/language/language theory/syntax/Syntactic Construct.md",
-    "dictionary/language/language theory/sementics/entity/Iterator.md",
-    "dictionary/service/Github/Github Pages.md",
+    "dispatch/githubpages-quartz/2. Git Submodule 설정 및 내용 연동.md",
+    "dispatch/githubpages-quartz/3. 옵시디언 동기화 및 서브모듈 업데이트.md",
+    "dispatch/githubpages-quartz/0. Github Pages에 Quartz를 이용한 Obsidian 베포.md",
+    "dispatch/githubpages-quartz/1. Github Page 설정 및 Quartz 동작 확인.md",
+    "diary/2025-10-02.md",
     "direction/Github Pages 설정 방법.md",
-    "dictionary/math/linear algebra/matrix/Matrix Operation/Determinant.md",
+    "direction/Github Repository 생성 방법.md",
+    "dictionary/dictionary.md",
+    "dictionary/service/Gemini CLI.md",
+    "direction/Git Submodule 사용 방법.md",
+    "dictionary/service/git/Branch.md",
+    "dictionary/service/git/Git.md",
+    "dictionary/service/git/Local Repository.md",
+    "dictionary/service/git/Remote Repository.md",
+    "dictionary/service/git/Repsitory.md",
+    "dictionary/service/git/Submodule.md",
+    "diary/2025-10-01.md",
+    "direction/로컬 레포.md",
+    "dictionary/service/github/Github Pages.md",
+    "dictionary/service/github/Github.md",
+    "dictionary/service/git/git.md",
+    "dictionary/service/git",
+    "dictionary/computer science/Command Line Interface.md",
+    "dictionary/computer science/computer science.md",
+    "dictionary/computer science",
+    "dictionary/computer science/Static site.md",
+    "dictionary/computer science/User Interface.md",
+    "dictionary/computer science/language/python/Generator Object.md",
     "Tags/#git",
-    "dictionary/math/algebra/Algebra.md",
-    "dictionary/math/statistical learning/무제.md",
-    "dictionary/math/statistics/Latent Space.md",
-    "dictionary/math/statistics/distribution/Multivariate Normal Distribution.md",
     "dictionary/math/analysis",
     "dictionary/math/Untitled",
     "dictionary/math/statistics/probability",
     "dictionary/math/statistics/noise",
     "dictionary/math/statistics/distribution",
     "dictionary/math/statistical learning/supervised learning",
-    "dictionary/math/statistical learning/supervised Learning",
-    "dictionary/math/linear algebra/vector/Vector Operation",
-    "dictionary/math/linear algebra/vector"
+    "dictionary/math/statistical learning/supervised Learning"
   ]
 }

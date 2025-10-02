@@ -14,8 +14,9 @@ tags:
 		- [[Repsitory|레포]] 이름을 `{github_id}.github.io`로 지정하는 경우 -  `https://{github_id}.github.io`
 		- 커스텀 도메인 있을 경우 지정 가능
 
+
 # 과정 
-## 1. 대시보드 또는 프로필 > 레포지토리 - 레포지토리 생성 
+## 1. [[Github Repository 생성 방법|Github Repository 생성]] 
 
 ## 2. 설정(settings) > 우측패널 > Code and automation > pages 
 - source

@@ -1,7 +1,7 @@
 ---
 tags:
-  - service/git
   - dictionary
+  - service/git
 aliases:
   - 브랜치
   - 분기
