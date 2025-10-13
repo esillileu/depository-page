@@ -8,4 +8,4 @@ aliases:
 # Block
 > [[Statement|문]] 집합으로 구성된 실행단위
 ## 특징
-+ [[Scope|스코프]]를 구성하기도 함
++ [[dictionary/computer science/language/language theory/sementics/Scope|스코프]]를 구성하기도 함

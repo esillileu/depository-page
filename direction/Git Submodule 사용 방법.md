@@ -106,7 +106,7 @@ cd <submodule_path>
 ```bash
 git submodule deinit -f <submodule_path> # 등록 취소
 git rm -f <path>                         # git 추적 취소
-rm -rf .git/modules/<submodule_path>               # 로컬 메타데이터 삭제
+rm -rf .git/modules/<submodule_path>     # 로컬 메타데이터 삭제
 
 # 커밋
 git add <submodule_path>

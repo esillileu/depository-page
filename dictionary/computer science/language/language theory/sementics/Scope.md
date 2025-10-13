@@ -7,3 +7,5 @@ aliases:
 ---
 # Scope
 > [[Identifier|식별자]]가 유효하게 [[Reference|참조]]될 수 있는 영역
+## 종류
++ [[Lexical Scope|렉시컬 스코프]]

@@ -5,7 +5,7 @@ tags:
 aliases:
 ---
 # Iterator
-> 파이썬의 [[Iterator|이터레이터]]
+> [[Python|파이썬]]의 [[Iterator|이터레이터]]
 ## 특징
 + 다음 메서드가 정의된 [[Object|객체]]
 	+ `__iter__()` : 이터레이터를 반환하는 객체 

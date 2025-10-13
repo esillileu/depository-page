@@ -2,12 +2,11 @@
 tags:
   - dictionary
   - programming_language/python
-  - programming_language/python/keyword
 aliases:
   - yield
 ---
 # Yield Statement
-> [[Generator|제너레이터]]의 값을 반환하거나 받아오는 [[Statement|문]] 
+> [[Python|파이썬]]에서 [[Generator|제너레이터]]의 값을 반환하거나 받아오는 [[Statement|문]] 
 ## 상세
 + `yield`가 포함된 함수는 [[Generator Function|제너레이터 함수]]로 정의
 + `yield`는 평가 시작 시에 호출자로 값을 반환하고 [[Context|컨텍스트]]를 저장

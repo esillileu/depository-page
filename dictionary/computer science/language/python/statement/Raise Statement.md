@@ -5,5 +5,5 @@ tags:
 aliases:
   - raise
 ---
-# Raise Statement
+# raise Statement
 > #추가필요 
