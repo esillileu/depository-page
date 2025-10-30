@@ -1,6 +1,7 @@
 ---
 tags:
   - dispatch
+  - programming_language/python
 ---
 # 제반 사항
 - 파이썬 네이티브 환경 관리 툴의 단점
@@ -45,5 +46,20 @@ tags:
 		- `[option]`
 			- `-p`: 파이썬 버전
 			- `--package` : 추가 설치 패키지
-		- `[path]
-			- 기본값은 현재 디렉토리`
+		- `[path]`
+			- 기본 값은 현재 디렉토리
+- 패키지 추가 
+	- [[pyproject.toml]]에 사용할 패키지 추가
+	- `uv add [package-name]`
+		- `[package][=<>][version]`: 패키지 버전 지정
+			- `numpy>=1.4`
+			- `pandas==1.2`
+- 의존성 고정
+	- [[pyproject.toml]]의 의존성을 기반으로 `uv.lock` 파일에 패키지 버전과 빌드 정고정
+	- `uv lock`
+- `uv.lock`을 기반으로 가상환경 생성
+	- .venv에 가상환경 생성
+	- `uv sync`
+- 가상환경 활성화 
+	- mac/linux - `source .venv/bin/activate`
+	- window - `.venv/Scripts/activate`

@@ -97,11 +97,10 @@
     "dictionary/dictionary/math/dictionary/math/statistics/dictionary/math/statistics/Variables",
     "dictionary/dictionary/computer science",
     "dictionary/dictionary/computer science/dictionary/computer science/language/dictionary/computer science/language/python",
-    "dispatch",
-    "direction",
-    "dictionary",
-    "dictionary/dictionary/computer science/dictionary/computer science/language",
-    "dictionary/dictionary/computer science/dictionary/computer science/language/dictionary/computer science/language/python/dictionary/computer science/language/python/tools"
+    "dictionary/dictionary/computer science/dictionary/computer science/language/dictionary/computer science/language/python/dictionary/computer science/language/python/rules",
+    "dictionary/dictionary/computer science/dictionary/computer science/language/dictionary/computer science/language/python/dictionary/computer science/language/python/statement",
+    "dictionary/dictionary/computer science/dictionary/computer science/linux",
+    "direction"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
