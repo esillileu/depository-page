@@ -8,43 +8,48 @@ aliases:
 # Mamba
 > [[State Space Model|ssm]]기반 [[Attention Layer|어텐션]] 대체 모듈
 ## 정의 
-- ***맘바***는 입력 $x_t$를 이산화한 [[State Space Model|ssm]]과 gating으로 나누어 처리하고 출력을 계산하는 레이어 
+- ***맘바***는 입력 $x_t$를 이산화한 [[State Space Model|ssm]] S6와 gating으로 나누어 처리하고 출력을 계산하는 레이어 
 	- 조건
-		- $$
-\begin{aligned}
-&x_t, o_t \in \mathbb{R}^d,\quad u_t \in \mathbb{R}^D\\
-&h_t \in \mathbb{R}^{D\times N}, \quad W_u, W_g \in \mathbb{R}^{D\times d} \quad W_{\text{out}} \in \mathbb{R}^{d\times D} \quad W_B, W_C \in \mathbb{R}^{N\times D} \\
-&W_{dt} \in \mathbb{R}^{r\times D}, \quad W_\Delta \in \mathbb{R}^{N\times r} \\
-& A = -\exp(A_{\log}) \in \mathbb R ^N\\
-\end{aligned}
-$$
+		- 블럭 조건 
+			- $$\begin{aligned}
+&x_t, y_t \in \mathbb{R}^{d\_model}\\
+&W_u, W_g \in \mathbb{R}^{D\times {d\_model}} \quad W_{\text{out}} \in \mathbb{R}^{{d\_model}\times D}\\
+	\end{aligned}$$
+		- ssm 조건 
+			- $$\begin{aligned}
+&i_t, o_t \in \mathbb{R}^D\\
+&h_t \in \mathbb{R}^{D\times N}, \quad W_B, W_C \in \mathbb{R}^{N\times D} \\
+&W_{dt} \in \mathbb{R}^{r\times D}, \quad W_\Delta \in \mathbb{R}^{D\times r} \\
+& A = -\exp(A_{\log}) \in \mathbb R ^{D\times N}, \quad {A_{log}}_{i, j} = ({A_{log}}_{i})_{j, j}\\
+\end{aligned}$$
 	- 입력 투사 
-		- $$
-\begin{aligned}
+		- 블럭 입력 투사 
+			- $$\begin{aligned}
 &x_t^{\text{conv}} = W_u x_t, \quad z_t = W_g x_t,\quad \to \quad  W_{in} = \begin{bmatrix} W_u \\ W_g \end{bmatrix}\\
 &\alpha_t = \sigma(z_t) \\
-&u_t = \phi\!\left(\sum_{k=0}^{w-1} \text{conv\_w}[:,k]\odot x_{t-k}^{\text{conv}} + b_{\text{conv}}\right)\\
+&i_t = \phi\!\left(\sum_{k=0}^{w-1} \text{conv\_w}[:,k]\odot x_{t-k}^{\text{conv}} + b_{\text{conv}}\right)\\
 \end{aligned}$$
-		- $$\begin{aligned}
-&\tilde\Delta_t = W_{dt} u_t \in \mathbb{R}^r, \quad B_t = W_B u_t \in \mathbb{R}^N, \quad C_t = W_C u_t \in \mathbb{R}^N \\
+	- ssm-s6 업데이트
+		- 입력 투사
+			- $$\begin{aligned}
+&\tilde\Delta_t = W_{dt} i_t \in \mathbb{R}^r, \quad B_t = W_B i_t \in \mathbb{R}^N, \quad C_t = W_C i_t \in \mathbb{R}^N \\
 &\to \quad W_{proj} = \begin{bmatrix} W_{dt} \\ W_B \\ W_C \end{bmatrix}\\
-&\Delta_t = \operatorname{softplus}(W_\Delta\, \tilde\Delta_t)\in\mathbb{R}^N\\
+&\Delta_t = \operatorname{softplus}(W_\Delta\, \tilde\Delta_t)\in\mathbb{R}^D\\
 \end{aligned}$$
-	- 이산화
-		- $$
-\begin{aligned}
-&\bar A_t = \exp(A\odot\Delta_t)\in \mathbb R^N\\
-&\bar B_t = B_t\odot \frac{\exp(A\odot\Delta_t) - 1}{A}\in \mathbb R^N\\
+		- 이산화
+			- $$\begin{aligned}
+&\bar A_t[d, n] = \exp(A[d, n]\cdot\Delta_t[d])\in \mathbb R^{D \times N}\\
+&\bar B_t[d, n] = B_t[n]\cdot \frac{\exp(A[d, n]\cdot\Delta_t[d]) - I}{A[d, n]}\in \mathbb R^{D\times N}\\
 \end{aligned}$$
-	- [[State Space Model|ssm]] 상태 업데이트
-		- $$\begin{aligned}
-&h_{t+1}[j,n] = \bar A_t[n]\;h_t[j,n] + \bar B_t[n]\;u_t[j]\in \mathbb R^{D\times N}\\
-&\tilde y_t[j] = \sum_{n=1}^{N} C_t[n]\, h_{t+1}[j,n]\in \mathbb R^{D\times N}\\
+		- [[State Space Model|ssm]] 상태 업데이트
+			- $$\begin{aligned}
+&h_{t+1}[d,n] = \bar A_t[d, n]\;h_t[d,n] + \bar B_t[d, n]\;u_t[d], \quad h_{t+1}\in \mathbb R^{D\times N}\\
+&\tilde o_t[d] = \sum_{n=1}^{N} C_t[d, n]\, h_{t+1}[d,n]\in \mathbb R^{D}\\
 \end{aligned}$$
 	- 블럭 출력
 		- $$\begin{aligned}
-&y_t = \alpha_t \odot \tilde y_t\\
-&o_t = W_{\text{out}}\, y_t + x_t\\
+&o_t = \alpha_t \odot \tilde o_t\\
+&y_t = W_{\text{out}}\, o_t + x_t\\
 \end{aligned}
 $$
 ## 구조

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "direction/유선망 연결 상태에서 무선망 로컬 접속 방법(WINDOWS).md",
+                "file": "dictionary/ai/module/Mamba Layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "유선망 연결 상태에서 무선망 로컬 접속 방법(WINDOWS)"
+              "title": "Mamba Layer"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "17f84e29b4cc6b83",
+            "id": "f17b165409543f0a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "3a5e07b71feff46c",
@@ -207,10 +208,12 @@
   },
   "active": "f03b1a4bd25dfd85",
   "lastOpenFiles": [
-    "direction/유선망 연결 상태에서 무선망 로컬 접속 방법(WINDOWS).md",
-    "dictionary/ai/module/Mamba Layer.md",
-    "dictionary/ai/metric/Perplexity.md",
+    "Tags/#ai+module",
+    "Tags/#dictionary",
     "dictionary/ai/module/State Space Model.md",
+    "dictionary/ai/module/Mamba Layer.md",
+    "direction/유선망 연결 상태에서 무선망 로컬 접속 방법(WINDOWS).md",
+    "dictionary/ai/metric/Perplexity.md",
     "dictionary/ai/metric/metric.md",
     "dictionary/ai/metric",
     "dictionary/ai/module/Fully Connected Layer.md",
@@ -237,11 +240,9 @@
     "dictionary/computer science/language/python/Python.md",
     "dictionary/computer science/computer science.md",
     "dictionary/data science/EDA.md",
-    "dictionary/data science/data science.md",
     "dictionary/data science",
     "dispatch/AICE Associate",
     "dictionary/computer science/linux",
-    "dictionary/computer science/language/python/keyword",
-    "dictionary/computer science/language/python/object"
+    "dictionary/computer science/language/python/keyword"
   ]
 }
