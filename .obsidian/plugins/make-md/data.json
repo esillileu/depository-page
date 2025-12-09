@@ -98,9 +98,10 @@
     "dispatch/dispatch/githubpages-quartz",
     "dispatch/dispatch/AICE Associate",
     "dispatch/dispatch/NVIDIA AI ACADEMY",
-    "dictionary/dictionary/computer science",
-    "dictionary/dictionary/computer science/dictionary/computer science/language",
-    "dictionary/dictionary/computer science/dictionary/computer science/language/dictionary/computer science/language/python"
+    "dictionary",
+    "dictionary/dictionary/AIai",
+    "dictionary/dictionary/ai",
+    "dictionary/dictionary/ai/dictionary/ai/module"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

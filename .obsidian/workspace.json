@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dispatch/AICE Associate/01 EDA.md",
+                "file": "direction/유선망 연결 상태에서 무선망 로컬 접속 방법(WINDOWS).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 EDA"
-            }
-          },
-          {
-            "id": "be90264b20fc04c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dispatch/AICE Associate/02 Preprocess.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02 Preprocess"
+              "title": "유선망 연결 상태에서 무선망 로컬 접속 방법(WINDOWS)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +75,7 @@
             }
           },
           {
-            "id": "37b1461473d3a4ec",
+            "id": "17f84e29b4cc6b83",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -220,9 +205,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be90264b20fc04c4",
+  "active": "f03b1a4bd25dfd85",
   "lastOpenFiles": [
+    "direction/유선망 연결 상태에서 무선망 로컬 접속 방법(WINDOWS).md",
+    "dictionary/ai/module/Mamba Layer.md",
+    "dictionary/ai/metric/Perplexity.md",
+    "dictionary/ai/module/State Space Model.md",
+    "dictionary/ai/metric/metric.md",
+    "dictionary/ai/metric",
+    "dictionary/ai/module/Fully Connected Layer.md",
     "dispatch/AICE Associate/01 EDA.md",
+    "dictionary/ai/module/Attention Layer.md",
+    "dictionary/math/Math.md",
+    "dictionary/ai/activation/activation.md",
+    "dictionary/ai/activation",
+    "dictionary/ai/module/module.md",
+    "dictionary/ai/module",
+    "dictionary/ai/desktop.ini",
+    "dictionary/ai/ai.md",
+    "dictionary/ai",
+    "dictionary/Untitled.md",
+    "dictionary/math/statistical learning/Statistical Learning.md",
+    "dictionary/dictionary.md",
+    "diary/2025-12-08.md",
+    "diary/2025-11-24.md",
     "dispatch/AICE Associate/02 Preprocess.md",
     "dispatch/AICE Associate/00 AICE Associate.md",
     "dispatch/githubpages-quartz/0. Github Pages에 Quartz를 이용한 Obsidian 베포.md",
@@ -233,30 +239,9 @@
     "dictionary/data science/EDA.md",
     "dictionary/data science/data science.md",
     "dictionary/data science",
-    "dispatch/AICE Associate/.md",
-    "dispatch/AICE Associate/AICE Associate.md",
     "dispatch/AICE Associate",
-    "dispatch/Untitled.md",
-    "direction/oneMKL 백엔드로 llama.cpp 설치.md",
-    "diary/2025-11-13.md",
-    "diary/2025-11-12.md",
-    "diary/2025-11-11.md",
-    "diary/2025-11-10.md",
-    "diary/2025-11-04.md",
-    "diary/2025-11-03.md",
-    "diary/2025-10-31.md",
-    "dictionary/math/linear algebra/matrix/Matrix Operation/Product of Matrix.md",
-    "dictionary/math/linear algebra/matrix/Matrix Operation/Scalar Multiplication of Matrix.md",
-    "diary/2025-10-30.md",
-    "diary/2025-10-29.md",
-    "direction/UV 설치 및 사용 방법.md",
     "dictionary/computer science/linux",
     "dictionary/computer science/language/python/keyword",
-    "dictionary/computer science/language/python/object",
-    "dictionary/computer science/language/python/rules",
-    "dictionary/math/statistics/Variables",
-    "dictionary/service/git",
-    "dictionary/computer science",
-    "Tags/#git"
+    "dictionary/computer science/language/python/object"
   ]
 }
