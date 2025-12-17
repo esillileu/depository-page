@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2025-12-15.md",
+                "file": "diary/2025-12-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-12-15"
+              "title": "2025-12-17"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "91e297d16a406a8d",
+            "id": "2a0856268a7302ad",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -208,8 +208,9 @@
   },
   "active": "f03b1a4bd25dfd85",
   "lastOpenFiles": [
-    "dictionary/ai/module/Mamba Layer.md",
     "diary/2025-12-15.md",
+    "diary/2025-12-17.md",
+    "dictionary/ai/module/Mamba Layer.md",
     "Tags/#diary",
     "Tags/#ai+module",
     "Tags/#dictionary",
@@ -241,7 +242,6 @@
     "dictionary/computer science/language/python/rules/rules.md",
     "dictionary/computer science/language/python/Python.md",
     "dictionary/computer science/computer science.md",
-    "dictionary/data science/EDA.md",
     "dictionary/data science",
     "dispatch/AICE Associate"
   ]
